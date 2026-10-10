@@ -1,6 +1,6 @@
 # yibingzhi.github.io
 
-卓橦（橦云 Tongyun）的个人主页：独立开发者，正在尝试一人公司。这里放作品、工作方式和可以找到我的频道。
+卓橦（橦云 Tongyun）的个人主页：独立开发者，正在尝试一人团队。这里放作品、工作方式和可以找到我的频道。
 
 - 线上地址：https://yibingzhi.github.io
 - 纯静态页面（HTML + CSS + 少量 JS），无构建步骤，由 GitHub Pages 直接从 `master` 分支根目录发布。
