@@ -21,4 +21,4 @@ python3 -m http.server 8000
 - 页面文字与链接：`index.html`
 - 样式：`styles.css`
 - 交互（主题切换、截图切换、入场动画）：`main.js`
-- 图片：`assets/`
+- 图片：`assets/`。站点图标与社交预览来自 [tongyun-scaffold/brand](https://github.com/dangzhuotong/tongyun-scaffold/tree/main/brand) 官方主标「云芽」。
