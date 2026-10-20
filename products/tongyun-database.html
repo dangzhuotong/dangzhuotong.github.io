@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>橦云数据库 · 卓橦</title>
+<meta name="description" content="人和 AI 共用的本机数据库工作台。改一行之前，先看见将要执行的 SQL，以及怎么退回去。" />
+<meta name="color-scheme" content="light dark" />
+<meta name="author" content="卓橦" />
+<link rel="canonical" href="https://dangzhuotong.github.io/products/tongyun-database.html" />
+<link rel="icon" type="image/svg+xml" href="../assets/yunya-mark.svg" />
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon-96.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="卓橦 · 橦云" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:url" content="https://dangzhuotong.github.io/products/tongyun-database.html" />
+<meta property="og:title" content="橦云数据库 · 卓橦" />
+<meta property="og:description" content="人和 AI 共用的本机数据库工作台。改一行之前，先看见将要执行的 SQL，以及怎么退回去。" />
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search).get('theme');
+    var saved = null; try { saved = localStorage.getItem('zt-theme'); } catch (e) {}
+    var t = q || saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+<a class="skip" href="#intro">跳到正文</a>
+<header class="nav" id="top">
+  <div class="container nav__inner">
+    <a class="brand" href="../index.html" aria-label="卓橦 · 回到首页">
+      <span class="brand__mark" aria-hidden="true">橦</span>
+      <span class="brand__text">卓橦<span class="brand__sub">Tongyun</span></span>
+    </a>
+    <nav class="nav__links" aria-label="主导航">
+      <a href="../index.html#works">作品</a>
+      <a href="../index.html#how">工作方式</a>
+      <a href="../index.html#channels">频道</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深色 / 浅色主题" title="切换主题">
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </button>
+      <a class="icon-btn" href="https://github.com/dangzhuotong" target="_blank" rel="noopener" aria-label="GitHub @dangzhuotong">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.35 1.08 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="product" id="intro">
+  <div class="container">
+    <p class="crumb"><a href="../index.html#works">作品</a> · tongyun-database</p>
+    <div class="product__layout">
+      <article class="sheet">
+        <p class="tag-line"><span class="pill pill--wip">打磨中</span><span class="mono">tongyun-database</span></p>
+        <h1>橦云数据库 <span class="en">tongyun-database</span></h1>
+        <p class="product__lede">人和 AI 共用的本机数据库工作台。改一行之前，先看见将要执行的 SQL，以及怎么退回去。</p>
+        <h2>为谁</h2>
+        <p class="product__lede">要在自己电脑上查库、改一条记录并留下痕迹的人。也给通过本机接口操作同一份计划的助手。</p>
+        <h2>能干什么</h2>
+        <ul class="feature-list">
+            <li><b>先连再查</b>支持 SQLite 沙箱、MySQL 和 Redis 7 及以上。第一次打开只建一个合成的 SQLite，别的连接自己加。</li>
+            <li><b>看表</b>按主键翻页，结果只画看得见的行。任意 SQL 的结果只读。</li>
+            <li><b>改一行</b>单行修改会先给出正向 SQL 和回滚 SQL，确认之后才执行。数据和结构若对不上，会拒绝。</li>
+            <li><b>时间线</b>开始、成功、失败、确认和取消都记在本机，需要时再核对并回滚。</li>
+            <li><b>同一套接口</b>网页和本机 HTTP API 用的是同一个库。可选 MCP，默认只注册只读工具。命令行目前只适配 SQLite。</li>
+        </ul>
+        <div class="product__cta">
+            <a class="btn btn--primary" href="https://github.com/dangzhuotong/tongyun-database/releases/latest" target="_blank" rel="noopener">查看 Release</a>
+            <a class="btn btn--ghost" href="https://github.com/dangzhuotong/tongyun-database" target="_blank" rel="noopener">查看仓库 <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="fineprint">v0.1.1 提供 macOS 压缩包 tongyun-database-mac.zip。解压后把「橦云数据库.app」放进应用程序文件夹，启动后用浏览器打开本机工作台（http://127.0.0.1:4319）。本机需要已经装好 Node.js 24 或以上。还没有 Windows 和 Linux 安装包。首次打开因为没有公证，需要右键选择「打开」。</p>
+        <p class="fineprint"><a href="tongyun-database.md">同一份介绍的文稿</a></p>
+      </article>
+      <aside class="sheet sheet--aside" aria-label="概要">
+        <dl class="facts">
+          <div>
+            <dt>状态</dt>
+            <dd>打磨中</dd>
+          </div>
+          <div>
+            <dt>技术栈</dt>
+            <dd>Node.js 24 及以上、JavaScript。PostgreSQL、Cloudflare D1 和内置大模型聊天还没有。Drizzle 只是后续候选，不是现在的功能。</dd>
+          </div>
+          <div>
+            <dt>仓库</dt>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-database" target="_blank" rel="noopener">dangzhuotong/tongyun-database</a></dd>
+          </div>
+          <div>
+            <dt>Release</dt>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-database/releases/latest" target="_blank" rel="noopener">Releases · v0.1.1</a></dd>
+          </div>
+          <div>
+            <dt>许可</dt>
+            <dd>MIT</dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="brand__mark" aria-hidden="true">橦</span>
+      <div>
+        <p class="footer__name">卓橦 · 橦云 Tongyun</p>
+        <p class="footer__tag">一个人，一支 AI 团队，慢慢做好用的东西。</p>
+      </div>
+    </div>
+    <nav class="footer__links" aria-label="页脚链接">
+      <a href="../index.html#works">全部作品</a>
+      <a href="https://github.com/dangzhuotong" target="_blank" rel="noopener">GitHub</a>
+      <a href="../index.html#top">回到首页 ↑</a>
+    </nav>
+  </div>
+  <div class="container footer__legal">
+    <span>© 2026 卓橦 Zhuo Tong</span>
+    <span>托管于 GitHub Pages</span>
+  </div>
+</footer>
+<script src="../main.js"></script>
+</body>
+</html>

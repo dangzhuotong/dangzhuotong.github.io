@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>橦云接口 · 卓橦</title>
+<meta name="description" content="在桌面上调试 API。接口写成仓库里的纯文本，用 Git 管理，不绑云端账号。" />
+<meta name="color-scheme" content="light dark" />
+<meta name="author" content="卓橦" />
+<link rel="canonical" href="https://dangzhuotong.github.io/products/tongyun-api.html" />
+<link rel="icon" type="image/svg+xml" href="../assets/yunya-mark.svg" />
+<link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon-96.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="卓橦 · 橦云" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:url" content="https://dangzhuotong.github.io/products/tongyun-api.html" />
+<meta property="og:title" content="橦云接口 · 卓橦" />
+<meta property="og:description" content="在桌面上调试 API。接口写成仓库里的纯文本，用 Git 管理，不绑云端账号。" />
+<script>
+  (function () {
+    var q = new URLSearchParams(location.search).get('theme');
+    var saved = null; try { saved = localStorage.getItem('zt-theme'); } catch (e) {}
+    var t = q || saved || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
+<link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+<a class="skip" href="#intro">跳到正文</a>
+<header class="nav" id="top">
+  <div class="container nav__inner">
+    <a class="brand" href="../index.html" aria-label="卓橦 · 回到首页">
+      <span class="brand__mark" aria-hidden="true">橦</span>
+      <span class="brand__text">卓橦<span class="brand__sub">Tongyun</span></span>
+    </a>
+    <nav class="nav__links" aria-label="主导航">
+      <a href="../index.html#works">作品</a>
+      <a href="../index.html#how">工作方式</a>
+      <a href="../index.html#channels">频道</a>
+    </nav>
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" type="button" aria-label="切换深色 / 浅色主题" title="切换主题">
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </button>
+      <a class="icon-btn" href="https://github.com/dangzhuotong" target="_blank" rel="noopener" aria-label="GitHub @dangzhuotong">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.35 1.08 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+      </a>
+    </div>
+  </div>
+</header>
+<main class="product" id="intro">
+  <div class="container">
+    <p class="crumb"><a href="../index.html#works">作品</a> · tongyun-api</p>
+    <div class="product__layout">
+      <article class="sheet">
+        <p class="tag-line"><span class="pill pill--accent">可用</span><span class="mono">tongyun-api</span></p>
+        <h1>橦云接口 <span class="en">tongyun-api</span></h1>
+        <p class="product__lede">在桌面上调试 API。接口写成仓库里的纯文本，用 Git 管理，不绑云端账号。</p>
+        <h2>为谁</h2>
+        <p class="product__lede">希望用例留在自己的项目仓库里，并能用分支和 Pull Request 看改动的人。</p>
+        <h2>能干什么</h2>
+        <ul class="feature-list">
+            <li><b>两种文本</b>可读 IntelliJ 的 .http / .rest，也读 tongyun-collections 里一个接口一个文件的 JSON。</li>
+            <li><b>直接发请求</b>用 Rust 发出去，不走浏览器的跨域限制。请求头、认证和正文都可以改。</li>
+            <li><b>多个标签</b>同时改几条请求。可以断言状态码、耗时、JSON 路径和响应头。</li>
+            <li><b>抽出变量</b>从响应里取出字段，写进当前环境，方便登录之后接着调下一个接口。</li>
+            <li><b>导入和示例</b>能导入 cURL、Postman Collection v2.1、OpenAPI 3.0 和 .http。可以生成 cURL、JavaScript、TypeScript、Python、Go、Rust 示例。私有变量放在被 Git 忽略的文件里。</li>
+        </ul>
+        <div class="product__cta">
+            <a class="btn btn--primary" href="https://github.com/dangzhuotong/tongyun-api/releases/latest" target="_blank" rel="noopener">查看 Release</a>
+            <a class="btn btn--ghost" href="https://github.com/dangzhuotong/tongyun-api" target="_blank" rel="noopener">查看仓库 <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="fineprint">当前公开版本是 v0.2.1，有 Windows、macOS Universal 和 Linux 安装包。没有 Apple 公证。0.1.0 没有应用内更新，需要先手动装上 0.2.0 之后的版本。</p>
+        <p class="fineprint"><a href="tongyun-api.md">同一份介绍的文稿</a></p>
+      </article>
+      <aside class="sheet sheet--aside" aria-label="概要">
+        <dl class="facts">
+          <div>
+            <dt>状态</dt>
+            <dd>可用</dd>
+          </div>
+          <div>
+            <dt>技术栈</dt>
+            <dd>Tauri 2、Rust、React 19、TypeScript、Tailwind CSS</dd>
+          </div>
+          <div>
+            <dt>仓库</dt>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-api" target="_blank" rel="noopener">dangzhuotong/tongyun-api</a></dd>
+          </div>
+          <div>
+            <dt>Release</dt>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-api/releases/latest" target="_blank" rel="noopener">Releases · 最新版</a></dd>
+          </div>
+
+        </dl>
+      </aside>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="brand__mark" aria-hidden="true">橦</span>
+      <div>
+        <p class="footer__name">卓橦 · 橦云 Tongyun</p>
+        <p class="footer__tag">一个人，一支 AI 团队，慢慢做好用的东西。</p>
+      </div>
+    </div>
+    <nav class="footer__links" aria-label="页脚链接">
+      <a href="../index.html#works">全部作品</a>
+      <a href="https://github.com/dangzhuotong" target="_blank" rel="noopener">GitHub</a>
+      <a href="../index.html#top">回到首页 ↑</a>
+    </nav>
+  </div>
+  <div class="container footer__legal">
+    <span>© 2026 卓橦 Zhuo Tong</span>
+    <span>托管于 GitHub Pages</span>
+  </div>
+</footer>
+<script src="../main.js"></script>
+</body>
+</html>
