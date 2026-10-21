@@ -232,7 +232,7 @@ button { font: inherit; color: inherit; }
 .works-grid--main .card h3 { font-size: 19px; }
 .card h3 a { transition: color .2s; }
 .card h3 a:hover { color: var(--accent); }
-.works-sub { margin-top: 16px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.works-sub { margin-top: 16px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .mini {
   display: flex; flex-direction: column; gap: 10px; min-height: 100%;
   padding: 20px 20px 18px; border-radius: var(--radius); background: var(--surface);

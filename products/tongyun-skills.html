@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>命令行助手 · 卓橦</title>
-<meta name="description" content="自用的 AI 命令行助手。仓库简介写的是基于 pi 改造；仓库里的 README 目前仍是上游 Pi Agent Harness 的说明。" />
+<title>技能 · 卓橦</title>
+<meta name="description" content="Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。" />
 <meta name="color-scheme" content="light dark" />
 <meta name="author" content="卓橦" />
-<link rel="canonical" href="https://dangzhuotong.github.io/products/tongyun-cli.html" />
+<link rel="canonical" href="https://dangzhuotong.github.io/products/tongyun-skills.html" />
 <link rel="icon" type="image/svg+xml" href="../assets/yunya-mark.svg" />
 <link rel="icon" type="image/png" sizes="48x48" href="../assets/favicon-48.png" />
 <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicon-96.png" />
@@ -15,9 +15,9 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="卓橦 · 橦云" />
 <meta property="og:locale" content="zh_CN" />
-<meta property="og:url" content="https://dangzhuotong.github.io/products/tongyun-cli.html" />
-<meta property="og:title" content="命令行助手 · 卓橦" />
-<meta property="og:description" content="自用的 AI 命令行助手。仓库简介写的是基于 pi 改造；仓库里的 README 目前仍是上游 Pi Agent Harness 的说明。" />
+<meta property="og:url" content="https://dangzhuotong.github.io/products/tongyun-skills.html" />
+<meta property="og:title" content="技能 · 卓橦" />
+<meta property="og:description" content="Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。" />
 <script>
   (function () {
     var q = new URLSearchParams(location.search).get('theme');
@@ -54,39 +54,46 @@
 </header>
 <main class="product" id="intro">
   <div class="container">
-    <p class="crumb"><a href="../index.html#works">作品</a> · tongyun-cli</p>
+    <p class="crumb"><a href="../index.html#works">作品</a> · tongyun-skills</p>
     <div class="product__layout">
       <article class="sheet">
-        <p class="tag-line"><span class="pill pill--wip">打磨中</span><span class="mono">tongyun-cli</span></p>
-        <h1>命令行助手 <span class="en">tongyun-cli</span></h1>
-        <p class="product__lede">自用的 AI 命令行助手。仓库简介写的是基于 pi 改造；仓库里的 README 目前仍是上游 Pi Agent Harness 的说明。</p>
+        <p class="tag-line"><span class="pill pill--accent">可用</span><span class="mono">tongyun-skills</span></p>
+        <h1>技能 <span class="en">Skills</span></h1>
+        <p class="product__lede">Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。</p>
         <h2>为谁</h2>
-        <p class="product__lede">作者自己在终端里用的助手。公开页面只写仓库里已经写明的事。</p>
+        <p class="product__lede">要在 Cursor、Codex、Claude 里用这些 skill，或用 npx skills 安装的人。</p>
         <h2>能干什么</h2>
         <ul class="feature-list">
-            <li><b>仓库定位</b>GitHub 简介：阿橦自用的 AI 命令行助手，基于 pi 改造。</li>
-            <li><b>仓库内容</b>根目录 package.json 的名字仍是 pi-monorepo，README 介绍的是 Pi 的各个包。</li>
-            <li><b>公开说明</b>功能以仓库 README 为准。本页只重复简介里已经写明的定位。</li>
+            <li><b>tong-chart</b>本地 Mermaid 出图（流程 / 架构 / 时序 / 甘特等），多主题，macOS · Windows · Linux。</li>
+            <li><b>tong-cover</b>本地 Pillow 封面 / 刊头 / 简报 / 金句卡，按星期换色。</li>
+            <li><b>tong-git</b>项目仓状态，按需提交，推到 Gitee / GitHub / CNB。</li>
+            <li><b>tong-humanize</b>去 AI 味改写：扫描套话 / 三毒 / 标点，按栏目交稿。</li>
+            <li><b>tong-mysql-ro</b>只读 MySQL：SELECT / SHOW / DESCRIBE，强制 LIMIT，凭证本地填。</li>
+            <li><b>tong-mysql-write</b>写库 DML：默认预览，确认后 --apply 并落回滚 SQL。不做 DDL。</li>
+            <li><b>仓库里怎么放</b>skills/ 每个 skill 一个目录。templates/ 是新建用的脚手架，不是 skill。scripts/ 做校验、打包和脚手架。docs/ 写怎么写、怎么打包。playground/ 是本机网页，用来试 skill，不装到系统。</li>
         </ul>
         <div class="product__cta">
-            <a class="btn btn--ghost" href="https://github.com/dangzhuotong/tongyun-cli" target="_blank" rel="noopener">查看仓库 <span aria-hidden="true">→</span></a>
+            <a class="btn btn--ghost" href="https://github.com/dangzhuotong/tongyun-skills" target="_blank" rel="noopener">查看仓库 <span aria-hidden="true">→</span></a>
         </div>
-        <p class="fineprint">没有 Release。</p>
-        <p class="fineprint"><a href="tongyun-cli.md">同一份介绍的文稿</a></p>
+        <p class="fineprint">README 没有写 Release。安装示例是 npx skills add https://gitee.com/yibingzhi/tong-skills.git ，也可以加 --skill 只装一个。短名 owner/repo 只走 GitHub，Gitee 必须用完整 git URL。仓库需公开。安装示例里的仓库页面：<a href="https://gitee.com/yibingzhi/tong-skills">gitee.com/yibingzhi/tong-skills</a>。</p>
+        <p class="fineprint">格式说明见 <a href="https://agentskills.io/specification">Agent Skills</a>。新 skill 按 <a href="https://github.com/dangzhuotong/tongyun-skills/blob/master/AGENTS.md">AGENTS.md</a> 加，不要往这个仓库塞无关内容。细节也看 <a href="https://github.com/dangzhuotong/tongyun-skills/blob/master/docs/authoring.md">docs/authoring.md</a>。</p>
+        <p class="fineprint">各 skill 目录：<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-chart">tong-chart</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-cover">tong-cover</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-git">tong-git</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-humanize">tong-humanize</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-mysql-ro">tong-mysql-ro</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-mysql-write">tong-mysql-write</a>。</p>
+        <p class="fineprint">test_skills.py 会校验 SKILL.md，并跑每个 skill 的 tests/。不用先装到 ~/.cursor/skills。tong-cover 的测试需要 Pillow（pip install pillow）。本机网页只绑 127.0.0.1，README 写的地址是 http://127.0.0.1:8765 。</p>
+        <p class="fineprint"><a href="tongyun-skills.md">同一份介绍的文稿</a></p>
       </article>
       <aside class="sheet sheet--aside" aria-label="概要">
         <dl class="facts">
           <div>
             <dt>状态</dt>
-            <dd>打磨中</dd>
+            <dd>可用</dd>
           </div>
           <div>
             <dt>技术栈</dt>
-            <dd>TypeScript。README 标明许可 MIT。</dd>
+            <dd>Python 脚本（校验、打包、试跑）</dd>
           </div>
           <div>
             <dt>仓库</dt>
-            <dd><a href="https://github.com/dangzhuotong/tongyun-cli" target="_blank" rel="noopener">dangzhuotong/tongyun-cli</a></dd>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-skills" target="_blank" rel="noopener">dangzhuotong/tongyun-skills</a></dd>
           </div>
           <div>
             <dt>Release</dt>
@@ -94,7 +101,7 @@
           </div>
           <div>
             <dt>许可</dt>
-            <dd>MIT</dd>
+            <dd><a href="https://github.com/dangzhuotong/tongyun-skills/blob/master/LICENSE" target="_blank" rel="noopener">MIT</a></dd>
           </div>
         </dl>
       </aside>
