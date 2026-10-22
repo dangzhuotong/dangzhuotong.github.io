@@ -17,7 +17,7 @@
 
 **仓库：** https://github.com/dangzhuotong/tongyun-skills
 
-**安装 / Release：** README 没有写 Release。安装示例是 `npx skills add https://gitee.com/yibingzhi/tong-skills.git`，也可以加 `--skill` 只装一个，例如 `tong-chart`。短名 `owner/repo` 只走 GitHub，Gitee 必须用完整 git URL。仓库需公开。
+**安装 / Release：** 仓库现为私有，自用。README 没有写 Release。对外安装说明以仓库 README 为准，不承诺公开安装源。
 
 **许可：** MIT
 
