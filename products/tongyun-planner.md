@@ -20,3 +20,21 @@
 **许可：** MIT
 
 **状态：** 可用
+
+## 界面截图
+
+与产品页同一批图（`../assets/`）：
+
+![主页：问候、今日待办与 AI 散文](../assets/dashboard.png)
+
+![翻页日记本](../assets/journal.png)
+
+![四象限优先级看板](../assets/matrix-view.png)
+
+![番茄钟与白噪音](../assets/pomodoro.png)
+
+![日历日程](../assets/calendar-view.png)
+
+![专注统计](../assets/analytics.png)
+
+另有桌面小组件示意：[widget.png](../assets/widget.png)

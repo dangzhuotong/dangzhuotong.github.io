@@ -18,3 +18,5 @@
 **安装 / Release：** [Releases · 最新版](https://github.com/dangzhuotong/tongyun-api/releases/latest)。当前公开版本是 v0.2.1，有 Windows、macOS Universal 和 Linux 安装包。没有 Apple 公证。0.1.0 没有应用内更新，需要先手动装上 0.2.0 之后的版本。
 
 **状态：** 可用
+
+<!-- screenshots pending: 阿装截图到位后嵌入 ../assets/api-*.png（见同名 .html 注释约定） -->

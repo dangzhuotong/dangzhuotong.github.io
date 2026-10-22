@@ -20,3 +20,5 @@
 **许可：** MIT
 
 **状态：** 可用
+
+<!-- screenshots pending: 阿装截图到位后嵌入 ../assets/dev-*.png（见同名 .html 注释约定） -->
