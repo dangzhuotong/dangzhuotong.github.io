@@ -20,3 +20,5 @@
 **许可：** MIT
 
 **状态：** 可用
+
+<!-- screenshots: 已嵌入 ../assets/dev-1.png、dev-2.png（Linux 网页控制台真机图） -->

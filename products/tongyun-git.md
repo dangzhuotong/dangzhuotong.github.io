@@ -18,3 +18,5 @@
 **安装 / Release：** [Releases · 最新版](https://github.com/dangzhuotong/tongyun-git/releases/latest)。当前公开版本是 v0.1.1，有 Windows、macOS Universal 和 Linux 安装包。没有 Apple 签名和公证。仓库说明写明：MVP 核心阶段（M0 到 M6）已经实现。
 
 **状态：** 可用
+
+<!-- screenshots: 已嵌入 ../assets/git-1.png（Linux Vite 预览欢迎页真机图；完整桌面仓库视图待桌面截） -->

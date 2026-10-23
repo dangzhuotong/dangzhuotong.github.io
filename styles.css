@@ -427,10 +427,24 @@ button { font: inherit; color: inherit; }
 .facts dd { margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--text); }
 .facts a { color: var(--accent); font-weight: 600; }
 .facts a:hover { text-decoration: underline; }
+.product__shots {
+  margin-top: 24px;
+  padding: 28px 32px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.product__shots h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  font-weight: 700;
+}
 @media (max-width: 860px) {
   .product__layout { grid-template-columns: 1fr; }
   .sheet--aside { position: static; }
   .sheet { padding: 24px 20px; }
+  .product__shots { padding: 20px 16px; }
 }
 
 /* ================= Motion ================= */

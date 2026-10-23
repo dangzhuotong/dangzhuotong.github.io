@@ -20,3 +20,5 @@
 **许可：** MIT
 
 **状态：** 打磨中
+
+<!-- screenshots: 已嵌入 ../assets/database-1.png .. database-3.png（Linux 本机工作台真机图） -->
