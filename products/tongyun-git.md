@@ -19,4 +19,4 @@
 
 **状态：** 可用
 
-<!-- screenshots: 已嵌入 ../assets/git-1.png（Linux Vite 预览欢迎页真机图；完整桌面仓库视图待桌面截） -->
+<!-- screenshots: git-1.png 欢迎页；git-2.png 仓库内改动+Diff（Linux 盒子 Tauri 真机，sample-notes 个人样例仓） -->
