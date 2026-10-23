@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>技能 · 卓橦</title>
-<meta name="description" content="Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。" />
+<meta name="description" content="Skill 素材库。格式遵循 Agent Skills，供本机 Cursor、Codex、Claude 与工人机自用；仓库私有，不对外 npm 安装。" />
 <meta name="color-scheme" content="light dark" />
 <meta name="author" content="卓橦" />
 <link rel="canonical" href="https://dangzhuotong.github.io/products/tongyun-skills.html" />
@@ -17,7 +17,7 @@
 <meta property="og:locale" content="zh_CN" />
 <meta property="og:url" content="https://dangzhuotong.github.io/products/tongyun-skills.html" />
 <meta property="og:title" content="技能 · 卓橦" />
-<meta property="og:description" content="Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。" />
+<meta property="og:description" content="Skill 素材库。格式遵循 Agent Skills，供本机 Cursor、Codex、Claude 与工人机自用；仓库私有，不对外 npm 安装。" />
 <script>
   (function () {
     var q = new URLSearchParams(location.search).get('theme');
@@ -59,9 +59,9 @@
       <article class="sheet">
         <p class="tag-line"><span class="pill pill--accent">可用</span><span class="mono">tongyun-skills</span></p>
         <h1>技能 <span class="en">Skills</span></h1>
-        <p class="product__lede">Skill 素材库。格式遵循 Agent Skills，可用 Cursor、Codex、Claude，以及 npx skills 安装。</p>
+        <p class="product__lede">Skill 素材库。格式遵循 Agent Skills，供本机 Cursor、Codex、Claude 与工人机自用；仓库私有，不对外 npm 安装。</p>
         <h2>为谁</h2>
-        <p class="product__lede">要在 Cursor、Codex、Claude 里用这些 skill，或用 npx skills 安装的人。</p>
+        <p class="product__lede">本机已装 skill，在 Cursor、Codex、Claude 与工人机里自用的人。</p>
         <h2>能干什么</h2>
         <ul class="feature-list">
             <li><b>tong-chart</b>本地 Mermaid 出图（流程 / 架构 / 时序 / 甘特等），多主题，macOS · Windows · Linux。</li>
@@ -75,7 +75,7 @@
         <div class="product__cta">
             <a class="btn btn--ghost" href="https://github.com/dangzhuotong/tongyun-skills" target="_blank" rel="noopener">查看仓库 <span aria-hidden="true">→</span></a>
         </div>
-        <p class="fineprint">仓库现为私有，自用。README 没有写 Release。对外安装说明以仓库 README 为准，不承诺公开安装源。</p>
+        <p class="fineprint">仓库现为私有，自用。README 没有写 Release。仓库私有，不对外 npm 安装，不承诺公开安装源。</p>
         <p class="fineprint">格式说明见 <a href="https://agentskills.io/specification">Agent Skills</a>。新 skill 按 <a href="https://github.com/dangzhuotong/tongyun-skills/blob/master/AGENTS.md">AGENTS.md</a> 加，不要往这个仓库塞无关内容。细节也看 <a href="https://github.com/dangzhuotong/tongyun-skills/blob/master/docs/authoring.md">docs/authoring.md</a>。</p>
         <p class="fineprint">各 skill 目录：<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-chart">tong-chart</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-cover">tong-cover</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-git">tong-git</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-humanize">tong-humanize</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-mysql-ro">tong-mysql-ro</a>、<a href="https://github.com/dangzhuotong/tongyun-skills/tree/master/skills/tong-mysql-write">tong-mysql-write</a>。</p>
         <p class="fineprint">test_skills.py 会校验 SKILL.md，并跑每个 skill 的 tests/。不用先装到 ~/.cursor/skills。tong-cover 的测试需要 Pillow（pip install pillow）。本机网页只绑 127.0.0.1，README 写的地址是 http://127.0.0.1:8765 。</p>
