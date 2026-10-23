@@ -21,4 +21,4 @@
 
 **状态：** 打磨中
 
-<!-- screenshots pending: 阿装截图到位后嵌入 ../assets/database-*.png（见同名 .html 注释约定） -->
+<!-- screenshots: 已嵌入 ../assets/database-1.png .. database-3.png（Linux 本机工作台真机图） -->

@@ -19,4 +19,4 @@
 
 **状态：** 可用
 
-<!-- screenshots pending: 阿装截图到位后嵌入 ../assets/api-*.png（见同名 .html 注释约定） -->
+<!-- screenshots: 已嵌入 ../assets/api-1.png（Linux Vite 预览工作台真机图） -->

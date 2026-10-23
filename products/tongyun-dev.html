@@ -103,15 +103,20 @@
       </aside>
     </div>
 
-    <!-- screenshots pending
-         阿装 Mac 截图到位后，按 tongyun-planner.html 的 product__shots 结构嵌入。
-         约定路径（放入站点根 assets/）：
-         - tongyun-dev:      ../assets/dev-1.png .. dev-3.png（或 dev-overview / dev-logs 等有意义命名）
-         - tongyun-git:      ../assets/git-1.png .. git-3.png
-         - tongyun-database: ../assets/database-1.png .. database-3.png
-         - tongyun-api:      ../assets/api-1.png .. api-3.png（可选同批）
-         不要用 stock / 占位图。
-    -->
+
+    <section class="product__shots" aria-label="界面截图">
+      <h2>界面截图</h2>
+      <div class="flagship__gallery">
+        <div class="tabs" role="tablist" aria-label="本地开发机界面截图">
+          <button role="tab" aria-selected="true" data-src="../assets/dev-1.png" data-alt="项目卡片：一键启停与状态">项目列表</button>
+          <button role="tab" aria-selected="false" data-src="../assets/dev-2.png" data-alt="空状态：扫描目录或手动新增">空状态</button>
+        </div>
+        <figure class="shot shot--gallery">
+          <img id="galleryImg" data-alt-prefix="本地开发机截图：" src="../assets/dev-1.png" width="1440" height="900" alt="本地开发机截图：项目卡片：一键启停与状态" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
   </div>
 </main>
 <footer class="footer">

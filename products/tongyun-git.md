@@ -19,4 +19,4 @@
 
 **状态：** 可用
 
-<!-- screenshots pending: 阿装截图到位后嵌入 ../assets/git-*.png（见同名 .html 注释约定） -->
+<!-- screenshots: 已嵌入 ../assets/git-1.png（Linux Vite 预览欢迎页真机图；完整桌面仓库视图待桌面截） -->
