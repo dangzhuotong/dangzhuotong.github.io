@@ -1,8 +1,8 @@
 # 技能
 
-**一句话：** Skill 素材库。格式遵循 [Agent Skills](https://agentskills.io/specification)，可用 Cursor、Codex、Claude，以及 `npx skills` 安装。
+**一句话：** Skill 素材库。格式遵循 [Agent Skills](https://agentskills.io/specification)，供本机 Cursor、Codex、Claude 与工人机自用；仓库私有，不对外 npm 安装。
 
-**为谁：** 要在 Cursor、Codex、Claude 里用这些 skill，或用 `npx skills` 安装的人。
+**为谁：** 本机已装 skill，在 Cursor、Codex、Claude 与工人机里自用的人。
 
 **能干什么：**
 - **tong-chart：** 本地 Mermaid 出图（流程 / 架构 / 时序 / 甘特等），多主题，macOS · Windows · Linux。
@@ -17,7 +17,7 @@
 
 **仓库：** https://github.com/dangzhuotong/tongyun-skills
 
-**安装 / Release：** 仓库现为私有，自用。README 没有写 Release。对外安装说明以仓库 README 为准，不承诺公开安装源。
+**安装 / Release：** 仓库现为私有，自用。README 没有写 Release。仓库私有，不对外 npm 安装，不承诺公开安装源。
 
 **许可：** MIT
 
