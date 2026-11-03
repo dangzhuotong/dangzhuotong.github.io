@@ -15,7 +15,7 @@
 
 **仓库：** https://github.com/dangzhuotong/tongyun-planner
 
-**安装 / Release：** [Releases · 最新版](https://github.com/dangzhuotong/tongyun-planner/releases/latest)。当前公开版本是 v1.1.2。Windows 用 exe 或 msi，macOS 用 Universal dmg，Linux 用 AppImage 或 deb。安装包没有做代码签名，也没有 Apple 公证。Windows 若被 SmartScreen 拦住，选「更多信息 → 仍要运行」。
+**安装 / Release：** [Releases · 最新版](https://github.com/dangzhuotong/tongyun-planner/releases/latest)。当前公开版本是 v1.2.0。Windows 用 exe 或 msi，macOS 用 Universal dmg，Linux 用 AppImage 或 deb。安装包没有做代码签名，也没有 Apple 公证。Windows 若被 SmartScreen 拦住，选「更多信息 → 仍要运行」。
 
 **许可：** MIT
 
