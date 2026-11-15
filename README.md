@@ -1,26 +1,15 @@
-# dangzhuotong.github.io
+# 卓橦 · 橦云
 
-卓橦（Zhuo Tong）的个人主页：独立开发者，正在尝试一人团队。这里放作品、工作方式和可以找到我的频道。对外署名「卓橦」。
+独立开发者卓橦的个人网站，收录桌面应用、开发工具和一人团队的工作记录。
 
-- 线上地址：https://dangzhuotong.github.io
-- 纯静态页面（HTML + CSS + 少量 JS），无构建步骤，由 GitHub Pages 直接从 `master` 分支根目录发布。
+[线上网站](https://dangzhuotong.github.io/) · [GitHub 个人主页](https://github.com/dangzhuotong)
 
-## 本地预览
+## 预览与维护
 
-用任意静态服务器在仓库根目录启动即可，例如：
+首页是纯静态 HTML 和 CSS，可以直接在浏览器打开 `index.html`。GitHub Pages 从 `master` 分支根目录发布，无需构建。
 
-```bash
-python3 -m http.server 8000
-# 或 npx serve .
-```
-
-然后打开 http://localhost:8000 。产品介绍在 `products/<slug>.html`。
-
-## 修改内容
-
-- 页面文字与链接：`index.html`
-- 产品文稿：`products/<slug>.md`（中文介绍，不写星数和下载量）
-- 产品页面：`products/<slug>.html`
-- 样式：`styles.css`
-- 交互（主题切换、截图切换、入场动画）：`main.js`
-- 图片：`assets/`。站点图标与社交预览来自 [tongyun-scaffold/brand](https://github.com/dangzhuotong/tongyun-scaffold/tree/main/brand)。
+- 首页内容在 `index.html`，首页样式在 `home.css`。
+- 产品介绍在 `products/<slug>.html`，对应文稿在 `products/<slug>.md`。这些页面使用 `styles.css` 和 `main.js`。
+- 手帐四象限截图复用本站原有的 `assets/matrix-view.png`。
+- 工作台截图取自 [橦云工作台的桌面启动验收](https://github.com/dangzhuotong/tongyun-studio/blob/be205581f9819a04a28f6fa097e8ddae0266aae8/docs/deliveries/studio-start-26402175923946130-20261031.png)。
+- 站点图标与社交预览来自 [tongyun-scaffold/brand](https://github.com/dangzhuotong/tongyun-scaffold/tree/main/brand)。
